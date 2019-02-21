@@ -13,6 +13,14 @@
 		5A007F62221DA3A500FC3019 /* CoreDataLogin2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A007F60221DA3A500FC3019 /* CoreDataLogin2.xcdatamodeld */; };
 		5A007F64221DA3A800FC3019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A007F63221DA3A800FC3019 /* Assets.xcassets */; };
 		5A007F67221DA3A800FC3019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A007F65221DA3A800FC3019 /* LaunchScreen.storyboard */; };
+		5A007F6F221DA75C00FC3019 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A007F6E221DA75C00FC3019 /* DataController.swift */; };
+		5A007F71221DA7D700FC3019 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A007F70221DA7D700FC3019 /* Constants.swift */; };
+		5A007F73221DA8A800FC3019 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A007F72221DA8A800FC3019 /* ViewModel.swift */; };
+		5A007F75221DAEB800FC3019 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A007F74221DAEB800FC3019 /* SignInViewController.swift */; };
+		5A007F77221DAECF00FC3019 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A007F76221DAECF00FC3019 /* SignUpViewController.swift */; };
+		5A007F79221DB6BA00FC3019 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A007F78221DB6BA00FC3019 /* SignUpModel.swift */; };
+		5ACCD075221E5654005035E6 /* GlobalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCD074221E5654005035E6 /* GlobalVars.swift */; };
+		5ACCD077221E56D5005035E6 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCD076221E56D5005035E6 /* SignInModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		5A007F63221DA3A800FC3019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A007F66221DA3A800FC3019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A007F68221DA3A800FC3019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A007F6E221DA75C00FC3019 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		5A007F70221DA7D700FC3019 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5A007F72221DA8A800FC3019 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5A007F74221DAEB800FC3019 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5A007F76221DAECF00FC3019 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5A007F78221DB6BA00FC3019 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		5ACCD074221E5654005035E6 /* GlobalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVars.swift; sourceTree = "<group>"; };
+		5ACCD076221E56D5005035E6 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +73,15 @@
 			isa = PBXGroup;
 			children = (
 				5A007F59221DA3A500FC3019 /* AppDelegate.swift */,
+				5ACCD074221E5654005035E6 /* GlobalVars.swift */,
+				5A007F70221DA7D700FC3019 /* Constants.swift */,
+				5A007F6E221DA75C00FC3019 /* DataController.swift */,
 				5A007F5B221DA3A500FC3019 /* ViewController.swift */,
+				5A007F72221DA8A800FC3019 /* ViewModel.swift */,
+				5A007F74221DAEB800FC3019 /* SignInViewController.swift */,
+				5ACCD076221E56D5005035E6 /* SignInModel.swift */,
+				5A007F76221DAECF00FC3019 /* SignUpViewController.swift */,
+				5A007F78221DB6BA00FC3019 /* SignUpModel.swift */,
 				5A007F5D221DA3A500FC3019 /* Main.storyboard */,
 				5A007F63221DA3A800FC3019 /* Assets.xcassets */,
 				5A007F65221DA3A800FC3019 /* LaunchScreen.storyboard */,
@@ -138,8 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ACCD077221E56D5005035E6 /* SignInModel.swift in Sources */,
+				5A007F75221DAEB800FC3019 /* SignInViewController.swift in Sources */,
+				5A007F71221DA7D700FC3019 /* Constants.swift in Sources */,
+				5A007F77221DAECF00FC3019 /* SignUpViewController.swift in Sources */,
+				5A007F79221DB6BA00FC3019 /* SignUpModel.swift in Sources */,
+				5ACCD075221E5654005035E6 /* GlobalVars.swift in Sources */,
 				5A007F62221DA3A500FC3019 /* CoreDataLogin2.xcdatamodeld in Sources */,
+				5A007F6F221DA75C00FC3019 /* DataController.swift in Sources */,
 				5A007F5C221DA3A500FC3019 /* ViewController.swift in Sources */,
+				5A007F73221DA8A800FC3019 /* ViewModel.swift in Sources */,
 				5A007F5A221DA3A500FC3019 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
