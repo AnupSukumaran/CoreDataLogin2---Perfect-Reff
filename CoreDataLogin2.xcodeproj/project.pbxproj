@@ -75,13 +75,10 @@
 				5A007F59221DA3A500FC3019 /* AppDelegate.swift */,
 				5ACCD074221E5654005035E6 /* GlobalVars.swift */,
 				5A007F70221DA7D700FC3019 /* Constants.swift */,
-				5A007F6E221DA75C00FC3019 /* DataController.swift */,
-				5A007F5B221DA3A500FC3019 /* ViewController.swift */,
-				5A007F72221DA8A800FC3019 /* ViewModel.swift */,
-				5A007F74221DAEB800FC3019 /* SignInViewController.swift */,
-				5ACCD076221E56D5005035E6 /* SignInModel.swift */,
-				5A007F76221DAECF00FC3019 /* SignUpViewController.swift */,
-				5A007F78221DB6BA00FC3019 /* SignUpModel.swift */,
+				5ACCD078221E70B2005035E6 /* CoreDataFiles */,
+				5ACCD079221E70D0005035E6 /* HomeViewController */,
+				5ACCD07A221E70EA005035E6 /* SignInViewController */,
+				5ACCD07B221E70F7005035E6 /* SignUpViewController */,
 				5A007F5D221DA3A500FC3019 /* Main.storyboard */,
 				5A007F63221DA3A800FC3019 /* Assets.xcassets */,
 				5A007F65221DA3A800FC3019 /* LaunchScreen.storyboard */,
@@ -89,6 +86,41 @@
 				5A007F60221DA3A500FC3019 /* CoreDataLogin2.xcdatamodeld */,
 			);
 			path = CoreDataLogin2;
+			sourceTree = "<group>";
+		};
+		5ACCD078221E70B2005035E6 /* CoreDataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5A007F6E221DA75C00FC3019 /* DataController.swift */,
+			);
+			path = CoreDataFiles;
+			sourceTree = "<group>";
+		};
+		5ACCD079221E70D0005035E6 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A007F5B221DA3A500FC3019 /* ViewController.swift */,
+				5A007F72221DA8A800FC3019 /* ViewModel.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		5ACCD07A221E70EA005035E6 /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A007F74221DAEB800FC3019 /* SignInViewController.swift */,
+				5ACCD076221E56D5005035E6 /* SignInModel.swift */,
+			);
+			path = SignInViewController;
+			sourceTree = "<group>";
+		};
+		5ACCD07B221E70F7005035E6 /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A007F76221DAECF00FC3019 /* SignUpViewController.swift */,
+				5A007F78221DB6BA00FC3019 /* SignUpModel.swift */,
+			);
+			path = SignUpViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
